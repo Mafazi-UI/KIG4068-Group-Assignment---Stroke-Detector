@@ -6,7 +6,7 @@ import joblib
 from imblearn.pipeline import Pipeline as imbpipeline  # Required if model uses imbalanced-learn pipeline
 
 # --- Load model and threshold ---
-MODEL_PATH = 'stroke_risk_model_1.pkl'
+MODEL_PATH = 'stroke_risk_model_1_compressed.pkl'
 
 @st.cache_resource
 def load_model():
