@@ -1,0 +1,1 @@
+# KIG4068-Group-Assignment---Stroke-Detector
