@@ -10,10 +10,10 @@ import os
 st.set_page_config(page_title="🩺 Stroke Risk Predictor", layout="centered")
 
 # --- Load Model ---
-MODEL_PATH = 'stroke_risk_model.pkl'
+MODEL_PATH = 'stroke_risk_model_revised.pkl'
 
 if not os.path.exists(MODEL_PATH):
-    st.error("Model file not found. Please ensure 'stroke_risk_model.pkl' is uploaded.")
+    st.error("Model file not found. Please ensure 'stroke_risk_model_revised.pkl' is uploaded.")
     st.stop()
 
 try:
