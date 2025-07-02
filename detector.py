@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # --- Load model and threshold ---
-MODEL_PATH = 'stroke_risk_model_1.pkl'
+MODEL_PATH = 'stroke_risk_model_1_compressed.pkl'
 
 @st.cache_resource
 def load_model():
