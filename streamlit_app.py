@@ -1,7 +1,7 @@
 # streamlit_app.py
 
 import streamlit as st
-import pandas as as pd
+import pandas as pd
 import numpy as np
 import joblib
 import os
