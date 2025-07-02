@@ -4,9 +4,9 @@ matplotlib-inline==0.1.7
 numpy==2.3.1
 pandas==2.3.0
 pillow==11.2.1
-scikit-learn==1.7.0
+scikit-learn==1.6.1
 scipy==1.16.0
 seaborn==0.13.2
 xgboost==3.0.2
 catboost==1.2.8
-imbalanced-learn
+imbalanced-learn==0.13.0
