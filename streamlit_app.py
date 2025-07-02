@@ -14,7 +14,7 @@ st.markdown("Enter patient health metrics below to assess stroke risk.")
 
 # --- Load Model and Preprocessor ---
 
-MODEL_PATH = 'stroke_risk_model.pkl'
+MODEL_PATH = 'stroke_risk_model_revised.pkl'
 PREPROCESSOR_PATH = 'preprocessor.pkl'
 
 if not os.path.exists(MODEL_PATH):
